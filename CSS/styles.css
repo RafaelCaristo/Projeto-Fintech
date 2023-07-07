@@ -1,0 +1,102 @@
+body {
+    background-image: linear-gradient(#000000f8,#774fb6fa,#000000f8);
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+    text-shadow: 0 0 3px black; 
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button {
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.entrarcom {
+    width: 275px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 11px;
+    border: none;
+}
+
+input[type="submit"] {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+div {
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: solid thick black;  */
+}
+
+.cadastro {
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 25px 0px 5px 5px;
+}
+.logar {
+    height: 40px;
+    width: 90px;
+    font-size: 17px;
+    margin: 5px 5px 5px 0px;
+}
+a {
+    color: blue;
+    }
+
+a:hover { 
+    color: #ffffff; 
+    }
